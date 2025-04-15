@@ -1,9 +1,65 @@
-0.0.0.0 instagram.com
-0.0.0.0 instagramvk.com
-0.0.0.0 pribylnyj-instagram.ru
-0.0.0.0 s-youtube.ru
-0.0.0.0 staryoutube.ru
+# Title: Custom Social Media Hosts Block List
+#
+# This hosts file is a custom block list specifically for social media domains.
+# It blocks domains associated with popular social media platforms.
+#
+# Date: 12 April 2025 16:30:00 (UTC)
+# Number of unique domains: 38
+#
+# To use this file:
+# 1. Save it as social_media_hosts.txt.
+# 2. Host it on a web server or place it locally where Pi-hole can reference it.
+# 3. In the Pi-hole Admin Interface, go to Group Management > Adlists (or Settings > Blocklists)
+#    and add the URL or file path to this block list.
+# 4. Run "pihole -g" to update gravity.
+#
+# Start of custom social media host block list
+
 0.0.0.0 facebook.com
-0.0.0.0 facebook.mirfilm.net
-0.0.0.0 facebook.tube2.me
-0.0.0.0 facebook.zfilm1990.site
+0.0.0.0 www.facebook.com
+0.0.0.0 connect.facebook.net
+0.0.0.0 api.facebook.com
+0.0.0.0 graph.facebook.com
+0.0.0.0 staticxx.facebook.com
+0.0.0.0 fbcdn.net
+
+0.0.0.0 instagram.com
+0.0.0.0 www.instagram.com
+0.0.0.0 cdninstagram.com
+0.0.0.0 graph.instagram.com
+
+0.0.0.0 twitter.com
+0.0.0.0 www.twitter.com
+0.0.0.0 mobile.twitter.com
+0.0.0.0 api.twitter.com
+0.0.0.0 pbs.twimg.com
+0.0.0.0 abs.twimg.com
+0.0.0.0 t.co
+
+0.0.0.0 linkedin.com
+0.0.0.0 www.linkedin.com
+
+0.0.0.0 pinterest.com
+0.0.0.0 www.pinterest.com
+0.0.0.0 assets.pinterest.com
+0.0.0.0 i.pinimg.com
+
+0.0.0.0 snapchat.com
+0.0.0.0 www.snapchat.com
+0.0.0.0 sc-cdn.net
+
+0.0.0.0 tiktok.com
+0.0.0.0 www.tiktok.com
+0.0.0.0 p16-va.tiktokcdn.com
+
+0.0.0.0 reddit.com
+0.0.0.0 www.reddit.com
+0.0.0.0 old.reddit.com
+0.0.0.0 i.redd.it
+0.0.0.0 redditstatic.com
+
+0.0.0.0 tumblr.com
+0.0.0.0 www.tumblr.com
+0.0.0.0 static.tumblr.com
+
+# End of custom social media host block list.
